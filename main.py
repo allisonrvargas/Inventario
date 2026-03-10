@@ -26,10 +26,9 @@ def ejecutar():
         elif opcion == "5":
             inv.calcular_valor_total(lista_productos)
         elif opcion == "6":
-            print("Saliendo del sistema...")
+            print("" ¡Gracias por usar el sistema de inventario! Saliendo...".")
             break
         else:
-            print("Opción no válida.")
-
+            print("" ¡Gracias por usar el sistema de inventario! Saliendo...".")
 if __name__ == "__main__":
-    ejecutar()
+    ejecutar()  
