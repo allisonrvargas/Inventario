@@ -24,4 +24,4 @@ Nombre: allisonvargass
 
 Rol: Developer (Camper)
 
-![Captura](img/screenshot.png)
+![Imagen](screenshot.png)
