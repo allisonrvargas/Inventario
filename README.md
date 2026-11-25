@@ -18,6 +18,44 @@ Aplicación de consola en **Python 3** para administrar los productos de una tie
 | 5. Calcular valor total | Suma precio × cantidad |
 | 6. Salir | Termina el programa |
 
+## Ejemplo de sesión
+
+Salida real del programa. Entradas usadas: agregar *Cuaderno* (.50 x 10), agregar *Lapiz* (.25 x 40), listar, cambiar la cantidad de *cuaderno* a 7, calcular el valor total y salir (las respuestas no se ven porque se leyeron de un archivo, no del teclado).
+
+```text
+--- SISTEMA DE INVENTARIO ---
+1. Agregar producto
+2. Listar productos
+3. Actualizar cantidad
+4. Eliminar producto
+5. Calcular valor total
+6. Salir
+Seleccione una opción: Nombre del producto: Precio: Cantidad disponible: Cuaderno agregado con éxito.
+
+[ ...se muestra el menú... ]
+Seleccione una opción: Nombre del producto: Precio: Cantidad disponible: Lapiz agregado con éxito.
+
+[ ...se muestra el menú... ]
+Seleccione una opción: 
+--- Inventario de productos ---
+1. Cuaderno
+   Precio: $15.50
+   Cantidad: 10 unidades
+2. Lapiz
+   Precio: $2.25
+   Cantidad: 40 unidades
+
+[ ...se muestra el menú... ]
+Seleccione una opción: Nombre del producto a actualizar: Nueva cantidad: Cantidad actualizada.
+
+[ ...se muestra el menú... ]
+Seleccione una opción: 
+Valor total del inventario: $198.50
+
+[ ...se muestra el menú... ]
+Seleccione una opción: ¡Gracias por usar el sistema de inventario! Saliendo...
+```
+
 ## Cómo ejecutarlo
 
 Requiere Python 3.9 o superior; no usa librerías externas.
